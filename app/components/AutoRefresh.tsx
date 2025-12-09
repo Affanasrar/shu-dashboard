@@ -16,7 +16,7 @@ export default function AutoRefresh() {
       
       // Stop the spinning icon after 1 second
       setTimeout(() => setIsRefreshing(false), 1000);
-    }, 100000);
+    }, 10000);
 
     // Cleanup interval when component unmounts
     return () => clearInterval(interval);
