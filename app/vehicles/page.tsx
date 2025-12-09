@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import connectDB from '@/lib/db';
 import Vehicle from '@/models/Vehicle';
 import Link from 'next/link';

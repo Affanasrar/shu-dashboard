@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import connectDB from '@/lib/db';
 import PaymentRequest from '@/models/PaymentRequest';
 import { approvePayment, rejectPayment } from '../actions'; // Re-use your actions

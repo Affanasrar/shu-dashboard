@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import connectDB from '@/lib/db';
 import User from '@/models/User';
 import UserRow from '../components/UserRow'; // Note the ".." to go back up
